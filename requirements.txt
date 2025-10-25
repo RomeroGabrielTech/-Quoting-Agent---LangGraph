@@ -1,0 +1,22 @@
+# Core Dependencies
+langchain>=0.2.0,<0.3.0
+langgraph>=0.1.0,<0.2.0
+
+# LLM Providers (instala el que necesites)
+langchain-google-genai>=1.0.0,<2.0.0  # Para Google Gemini
+langchain-openai>=0.1.0,<0.2.0  # Para OpenAI (opcional)
+pydantic>=2.7.0,<3.0.0
+python-dotenv>=1.0.0,<2.0.0
+
+# API Framework
+fastapi>=0.111.0,<0.112.0
+uvicorn[standard]>=0.29.0,<0.30.0
+
+# HTTP Client
+httpx>=0.27.0,<0.28.0
+
+# Logging
+loguru>=0.7.0,<0.8.0
+
+# Retry Logic
+tenacity>=8.3.0,<9.0.0
